@@ -519,8 +519,8 @@ function handleFileAction(action: string) {
 
 <template>
   <div class="relative flex size-full flex-col divide-y overflow-hidden">
-    <div class="h-[498px] overflow-y-scroll">
-      <Conversation>
+    <div class="h-[498px]">
+      <Conversation class="h-full">
         <ConversationContent>
           <template
             v-for="message in messages"
