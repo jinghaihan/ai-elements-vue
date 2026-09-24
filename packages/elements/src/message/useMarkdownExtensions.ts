@@ -14,7 +14,7 @@ export function useMarkdownExtensions(): {
     : {
         code: code(),
         math: math(),
-        mermaid: mermaid(),
+        mermaid: mermaid({ config: { securityLevel: 'strict' } }),
       }
 
   return { provider, extensions }
