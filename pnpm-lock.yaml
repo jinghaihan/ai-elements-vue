@@ -36,9 +36,6 @@ catalogs:
     '@rive-app/webgl2':
       specifier: ^2.38.5
       version: 2.38.5
-    '@stream-markdown/beautiful-mermaid':
-      specifier: 2.0.0-beta.5
-      version: 2.0.0-beta.5
     '@stream-markdown/code':
       specifier: 2.0.0-beta.5
       version: 2.0.0-beta.5
@@ -372,9 +369,6 @@ importers:
       '@rive-app/webgl2':
         specifier: 'catalog:'
         version: 2.38.5
-      '@stream-markdown/beautiful-mermaid':
-        specifier: 'catalog:'
-        version: 2.0.0-beta.5
       '@stream-markdown/code':
         specifier: 'catalog:'
         version: 2.0.0-beta.5
@@ -3173,9 +3167,6 @@ packages:
 
   '@standard-schema/spec@1.1.0':
     resolution: {integrity: sha512-l2aFy5jALhniG5HgqrD6jXLi/rUWrKvqN/qJx6yoJsgKhblVd+iqqU4RCXavm/jPityDo5TCvKMnpjKnOriy0w==}
-
-  '@stream-markdown/beautiful-mermaid@2.0.0-beta.5':
-    resolution: {integrity: sha512-oaez4JDKmMbwGN1DhEeP7e8UJquo66OKts0URge8Iz2Q/wk96w3ARD/858ULo6FgTTTJmNWCDcUINvBT6x9Khg==}
 
   '@stream-markdown/code@2.0.0-beta.5':
     resolution: {integrity: sha512-boclox0fswRbVrCm2zt+7Rgpi/jwtLOzzHtBXbToLbgOPldXi7NHa/CExiZXTiSNIveFmwO5b/Nn1fwT26pegQ==}
@@ -11762,11 +11753,6 @@ snapshots:
 
   '@standard-schema/spec@1.1.0': {}
 
-  '@stream-markdown/beautiful-mermaid@2.0.0-beta.5':
-    dependencies:
-      '@stream-markdown/core': 2.0.0-beta.5
-      beautiful-mermaid: 1.1.3
-
   '@stream-markdown/code@2.0.0-beta.5':
     dependencies:
       '@stream-markdown/core': 2.0.0-beta.5
@@ -13065,6 +13051,7 @@ snapshots:
     dependencies:
       elkjs: 0.11.1
       entities: 7.0.1
+    optional: true
 
   bindings@1.5.0:
     dependencies:
@@ -13866,7 +13853,8 @@ snapshots:
 
   elkjs@0.10.2: {}
 
-  elkjs@0.11.1: {}
+  elkjs@0.11.1:
+    optional: true
 
   embla-carousel-reactive-utils@8.6.0(embla-carousel@8.6.0):
     dependencies:

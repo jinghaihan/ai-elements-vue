@@ -13,7 +13,6 @@
     "@lucide/vue": "catalog:",
     "@repo/shadcn-vue": "workspace:*",
     "@rive-app/webgl2": "catalog:",
-    "@stream-markdown/beautiful-mermaid": "catalog:",
     "@stream-markdown/code": "catalog:",
     "@stream-markdown/math": "catalog:",
     "@stream-markdown/mermaid": "catalog:",
