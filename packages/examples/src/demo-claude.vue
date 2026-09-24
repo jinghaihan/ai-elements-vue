@@ -553,9 +553,6 @@ onUnmounted(() => {
                       >
                         <MessageResponse
                           :content="version.content"
-                          :shiki-options="{
-                            langs: ['vue', 'ts'],
-                          }"
                         />
                       </MessageContent>
                     </div>
